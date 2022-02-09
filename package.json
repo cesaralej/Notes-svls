@@ -9,19 +9,12 @@
     "deploy": "sst deploy",
     "remove": "sst remove"
   },
-  "eslintConfig": {
-    "extends": [
-      "serverless-stack"
-    ]
-  },
-  "devDependencies": {
-    "@aws-cdk/assert": "1.132.0"
-  },
   "dependencies": {
-    "@aws-cdk/core": "1.132.0",
-    "@serverless-stack/cli": "0.53.0",
-    "@serverless-stack/resources": "0.53.0",
-    "aws-sdk": "^2.1048.0",
+    "@serverless-stack/cli": "0.60.4",
+    "@serverless-stack/resources": "0.60.4",
+    "aws-cdk-lib": "2.7.0",
+    "aws-sdk": "^2.971.0",
+    "stripe": "^8.169.0",
     "uuid": "^7.0.3"
   }
 }
